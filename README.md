@@ -18,7 +18,7 @@ A API que será utilizada foi desenvolvida por nós, do Codante. O endpoint prin
 
 A documentação da API está em <a target="_blank" href="https://apis-docs.codante.io/orders-api">https://apis-docs.codante.io/orders-api</a>. Será necessário consultá-la para fazer este Mini Projeto.
 
-> [!NOTE]  
+> [!NOTE]    
 > Nenhum dos dados da API são reais e a base de dados é redefinida a cada hora.
 
 ## 🔨 Requisitos
@@ -33,8 +33,8 @@ A documentação da API está em <a target="_blank" href="https://apis-docs.coda
   - Data do Pedido
   - Valor do Pedido
 
-> [!TIP]
-> O valor do pedido está em centavos. Faça as conversões e transforme para o formato brasileiro de número.
+> [!TIP]  
+> O valor do pedido está em centavos. Faça as conversões e transforme para o formato brasileiro de número.  
 
 **Busca Textual**
 
