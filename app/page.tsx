@@ -10,8 +10,13 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import axios from 'axios';
 
 export default async function Component() {
+  const response = await axios.get('https://apis.codante.io/api/orders-api/orders?page=3  ');
+  const order = response.data.data;
+ 
+
   return (
     <main className="container px-1 py-10 md:p-10">
       <Card>
@@ -26,7 +31,7 @@ export default async function Component() {
           </div>
         </CardHeader>
         <CardContent>
-          <OrdersTable />
+          <OrdersTable orders = {order} />
           <div className="mt-8">
             <Pagination />
           </div>
